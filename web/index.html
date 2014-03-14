@@ -1,16 +1,29 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: Anthony
-  Date: 14/03/14
-  Time: 22:37
-  To change this template use File | Settings | File Templates.
+Created by IntelliJ IDEA.
+User: Anthony
+Date: 14/03/14
+Time: 22:37
+To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title></title>
-  </head>
-  <body>
+    <script type="text/javascript" src="lib/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
 
-  </body>
+</head>
+<body>
+
+<header ng-repeat-start="item in items">
+    Header {{ item }}
+</header>
+<div class="body">
+    Body {{ item }}
+</div>
+<footer ng-repeat-end>
+    Footer {{ item }}
+</footer>
+
+</body>
 </html>
