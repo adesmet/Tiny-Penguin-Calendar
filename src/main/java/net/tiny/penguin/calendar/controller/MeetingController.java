@@ -1,4 +1,4 @@
-package net.tiny.penguin.controller;
+package net.tiny.penguin.calendar.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
