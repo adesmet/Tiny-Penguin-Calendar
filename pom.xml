@@ -12,7 +12,9 @@
         <spring.version>4.0.2.RELEASE</spring.version>
         <spring-data-mongodb.version>1.4.0.RELEASE</spring-data-mongodb.version>
         <google-api-client.version>1.17.0-rc</google-api-client.version>
+        <google-api-services-calendar.version>v3-rev75-1.17.0-rc</google-api-services-calendar.version>
         <joda-time.version>2.3</joda-time.version>
+        <gson.version>2.2.4</gson.version>
     </properties>
 
     <dependencies>
@@ -49,8 +51,18 @@
         </dependency>
 
         <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-calendar</artifactId>
+            <version>${google-api-services-calendar.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.api-client</groupId>
             <artifactId>google-api-client</artifactId>
+            <version>${google-api-client.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.api-client</groupId>
+            <artifactId>google-api-client-gson</artifactId>
             <version>${google-api-client.version}</version>
         </dependency>
 
