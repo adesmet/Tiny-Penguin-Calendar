@@ -1,10 +1,40 @@
-#container{
+/* CUSTOM */
+
+.container{
     width:100%;
     height:100%;
     display:table;
+    padding: 0;
+    margin: 0;
 }
-#header{
+
+.header{
     width:100%;
     height:20%;
-    background-color:blue;
+    background-image: url("assets/penguin_banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width:100%;
+    height:75%;
+}
+
+.center{
+    width:100%;
+    height:80%;
+}
+
+.center .content{
+    width:auto;
+    height:100%;
+}
+
+.footer{
+    width:100%;
+    height:20%;
+    background-color:red;
 }
